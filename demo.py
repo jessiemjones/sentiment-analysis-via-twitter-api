@@ -1,6 +1,12 @@
 import tweepy
 from textblob import TextBlob
+import config
 
+consumer_key = config.consumerKey 
+consumer_secret = config.consumerSecret
+
+access_token = config.accessToken
+acces_token_secret = config.accesTokenSecret
 
 
 #user auth
